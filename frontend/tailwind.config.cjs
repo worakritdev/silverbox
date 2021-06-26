@@ -7,6 +7,11 @@ const config = {
 		extend: {},
 	},
 	plugins: [],
+	variants:{
+		extend: {
+			boxSizing: ['hover', 'focus'],
+		}
+	}
 };
 
 module.exports = config;
